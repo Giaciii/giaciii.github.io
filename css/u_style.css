@@ -1,0 +1,71 @@
+body {
+    overflow-x: hidden;
+    background-image: url(../bilder/vielfrass/vielfrass-braun-kopfv2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.nav-link {
+    color: black;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0);   
+}
+
+.nav-link:hover {
+    color: black;
+    border-bottom: 1.5px solid black;
+}
+
+.navbar {
+    border-bottom: 1.5px solid black;
+    font-size: 13pt;
+    background-color: white;
+}
+
+/* background-color: rgba(255, 255, 255, 0.292); */
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: static;
+}
+
+.main {
+    font-weight: 700;
+}
+
+.card-title {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+/* Informationen */
+
+.informationen {
+    background-color: rgba(255, 255, 255, 0.292);
+    width: 60em;
+}
+
+/* Footer */
+
+.footer {
+    background-color: white;
+}
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}

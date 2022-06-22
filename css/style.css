@@ -1,0 +1,95 @@
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.nav-link {
+    color: black;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0);   
+}
+
+.nav-link:hover {
+    color: black;
+    border-bottom: 1.5px solid black;
+}
+
+.navbar {
+    border-bottom: 1.5px solid black;
+    font-size: 13pt;
+}
+
+.bilder-anzeige {
+    overflow: hidden;
+}
+
+.bilder-anzeige figure {
+    position: relative;
+    width: 500%;
+    animation: 20s anzeige infinite;
+}
+
+.bilder-anzeige figure img {
+    width: 20%;
+    float: left;
+}
+
+@keyframes anzeige {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    80% {
+        left: -300%;
+    }
+    100% {
+        left: -300px;
+    }
+    to {
+        left: 0;
+    }
+}
+
+/* Tier- und Zooinfos */
+
+.card {
+    width: 100%;
+    border: none;
+}
+
+.card-body {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/* Der Footer */
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+  }  

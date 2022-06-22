@@ -1,0 +1,43 @@
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.nav-link {
+    color: black;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0);   
+}
+
+.nav-link:hover {
+    color: black;
+    border-bottom: 1.5px solid black;
+}
+
+.navbar {
+    border-bottom: 1.5px solid black;
+    font-size: 13pt;
+}
+
+.rounded {
+    width: 32%;
+    margin-top: 1em;
+    height: auto;
+    border: 2px solid black;
+    margin-left: 5px;
+}
+
+/* Footer */
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
