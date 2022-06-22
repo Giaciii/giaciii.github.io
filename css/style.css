@@ -12,6 +12,7 @@ a:hover {
     color: black;
 }
 
+/* Navigation */
 .nav-link {
     color: black;
     border-bottom: 1.5px solid rgba(0, 0, 0, 0);   
@@ -27,6 +28,7 @@ a:hover {
     font-size: 13pt;
 }
 
+/* Bilder für Slider */
 .bilder-anzeige {
     overflow: hidden;
 }
@@ -42,6 +44,7 @@ a:hover {
     float: left;
 }
 
+/* Slideranimation */
 @keyframes anzeige {
     0% {
         left: 0;
