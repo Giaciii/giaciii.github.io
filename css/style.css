@@ -102,6 +102,11 @@ a:hover {
     border: none;
 }
 
+.kopfbild {
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
 /* Der Footer */
 
 .container {
