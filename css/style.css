@@ -102,6 +102,10 @@ a:hover {
     border: none;
 }
 
+.col-md-8 {
+    width: 50em;
+}
+
 .kopfbild {
     border-radius: 5px;
     border: 2px solid black;
